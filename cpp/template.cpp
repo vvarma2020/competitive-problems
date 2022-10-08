@@ -16,11 +16,7 @@ int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(0); std::cout.tie(0);
 
-    int T = 1;
-    std::cin >> T; // comment this line out if you're not taking test cases
-    for(int i = 1; i <= T; i++) {
-        solve();
-    }
+    solve();
 
     return 0;
 }
