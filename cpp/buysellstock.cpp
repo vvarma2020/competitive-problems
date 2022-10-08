@@ -13,6 +13,18 @@ const int MOD = 1000000007;
 
 void solve() {
     // solve problem here
+    std::vector<int> v;
+    int input;
+    while (std::cin >> input) {
+        v.push_back(input);
+    }
+    int res = 0;
+    for (int i = 0; i < v.size(); i++) {
+        for (int j = i; j < v.size(); j++) {
+            res = std::max(res, v[j] - v[i]);
+        }
+    }
+    std::cout << res << std::endl;
 }
 
 int main() {
