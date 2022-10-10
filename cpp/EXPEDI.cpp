@@ -11,13 +11,16 @@
 const int MAXN = 200100;
 const int MOD = 1000000007;
 
-void solve() {
-    // solve problem here
+void solve()
+{
+    // solve problem here.
 }
 
-int main() {
+int main()
+{
     std::ios_base::sync_with_stdio(false);
-    std::cin.tie(0); std::cout.tie(0);
+    std::cin.tie(0);
+    std::cout.tie(0);
 
     solve();
 
