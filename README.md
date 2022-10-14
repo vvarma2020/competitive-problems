@@ -1,2 +1,2 @@
 # competitve-problems
-These are Competitve Programming problems solved by me
+These are Competitve Programming problems solved by me.
